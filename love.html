@@ -5,6 +5,15 @@
   <title>Congratulations</title>
   <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 </head>
+<script>
+</script>
+window.onload = function(){
+  url = location.href;
+  if( url.indexOf("#") == -1){
+      url += "#";
+      self.location.replace(url);
+    }
+};  
 <body>
 <div>
 </br>
